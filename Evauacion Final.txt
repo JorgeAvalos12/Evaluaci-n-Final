@@ -1,0 +1,17 @@
+
+
+# Pide al usuario un número entero n y genera los primeros n términos de la serie de Fibonacci usando un ciclo for. 
+
+n = int(input("Introduce un número entero n para generar los primeros n términos de la serie de Fibonacci: "))
+
+num1 = 1
+num2 = 2
+
+print("Los primeros",n, " de la serie de Fibonacci son:")
+for i in range(n):
+    print(num1, end=" ")
+    num1, num2 = num2, num1 + num2  
+    print()
+
+print("entrada no valida" )
+    
